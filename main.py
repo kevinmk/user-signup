@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 app.config['DEBUG'] = True      # displays runtime errors in the browser, too
 
-# a list of movies that nobody should have to watch
+# --------------------------------------
 terrible_movies = [
     "Gigli",
     "Star Wars Episode 1: Attack of the Clones",
@@ -16,7 +16,7 @@ terrible_movies = [
 
 def get_current_watchlist():
     # returns user's current watchlist--hard coded for now
-    return [ "Star Wars", "Minions", "Freaky Friday", "My Favorite Martian" ]
+    return [ "Star Wars", "Minions", "Shawshank Redemption", "My Favorite Martian" ]
 
 # TODO: 
 # Modify "My Watchlist" so that you eliminate the need for the "crossoff" form in edit.html. 
